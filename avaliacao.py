@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor
 from sklearn.model_selection import cross_val_predict
 
 # carrega dados
-df = pd.read_csv('wimoveis.csv')
+df = pd.read_csv('dataset.csv')
 
 # deixa apenas variaveis quantitativas (i.e., descarta colunas de texto)
 df = df[['preco_total', 'area_util', 'local', 'vagas']]
